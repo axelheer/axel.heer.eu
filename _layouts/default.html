@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="{{ site.lang | slice: 0, 2 }}">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {% seo %}
+
+    <link rel="icon" type="image/png" href="/media/icon.png" />
+    <link rel="stylesheet" type="text/css" href="/styles/bundle.css" />
+    <script type="text/javascript" async="async" src="/scripts/bundle.js"></script>
+    <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="{{ site.title }}" />
+</head>
+
+<body>
+    <div id="page">
+        <div id="header">
+            <ul>
+                <li>
+                    <a href="/archive/">Archive</a>
+                </li>
+                <li>
+                    <a href="/feed.xml">Feed</a>
+                </li>
+            </ul>
+        </div>
+        <div id="heading" class="{{ site.accent }}">
+            <a href="/">
+                <img src="{{ site.logo }}" alt="" />
+                <h1 class="title">{{ site.title }}</h1>
+                <h2 class="tagline">{{ site.description }}</h2>
+            </a>
+        </div>
+        <ul id="tags" data-weight="{{ site.posts | size }}">
+            {% for tag in site.hashtags %}
+            <li class="tag" data-weight="{{ site.tags[tag.title] | size }}">
+                <a href="{{ tag.url }}">{{ tag.title | xml_escape }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+
+        {{ content }}
+
+        <div id="footer">
+            <ul>
+                {% if site.twitter_username %}
+                <li>
+                    <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+                </li>
+                {% endif %}
+                {% if site.github_username %}
+                <li>
+                    <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+                </li>
+                {% endif %}
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+            </ul>
+            © {{ site.author }}
+        </div>
+    </div>
+</body>
+
+</html>

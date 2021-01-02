@@ -1,0 +1,16 @@
+---
+title: Archiv
+layout: default
+---
+<ul id="posts">
+    <li class="post page-post">
+        <h3 class="post-title">Archive</h3>
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title | xml_escape }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+</ul>

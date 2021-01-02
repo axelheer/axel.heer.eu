@@ -1,0 +1,119 @@
+/*
+
+Solarized Dark
+
+For use with Jekyll and Pygments
+
+http://ethanschoonover.com/solarized
+
+*/
+
+/* base03 - hsv(193, 100%, 21%) - background */
+
+.highlight {
+    background-color: #002b36;
+    color: #93a1a1;
+}
+
+/* base01 - hsv(194, 25%, 46%) - comments / secondary content */
+
+.highlight .c, /* Comment */
+.highlight .cm, /* Comment.Multiline */
+.highlight .c1, /* Comment.Single */
+.highlight .sb { /* Literal.String.Backtick */
+    color: #586e75;
+}
+
+/* base1 - hsv(180, 9%, 63%) - body text / default code / primary content */
+
+.highlight .err, /* Error */
+.highlight .g, /* Generic */
+.highlight .l, /* Literal */
+.highlight .n, /* Name */
+.highlight .p, /* Punctuation */
+.highlight .ge, /* Generic.Emph */
+.highlight .go, /* Generic.Output */
+.highlight .gp, /* Generic.Prompt */
+.highlight .gs, /* Generic.Strong */
+.highlight .gt, /* Generic.Traceback */
+.highlight .ld, /* Literal.Date */
+.highlight .na, /* Name.Attribute */
+.highlight .nl, /* Name.Label */
+.highlight .nn, /* Name.Namespace */
+.highlight .nx, /* Name.Other */
+.highlight .py, /* Name.Property */
+.highlight .w, /* Text.Whitespace */
+.highlight .sd, /* Literal.String.Doc */
+.highlight .sh { /* Literal.String.Heredoc */
+    color: #93a1a1;
+}
+
+/* orange - hsv(18, 89%, 80%) - constants */
+
+.highlight .x, /* Other */
+.highlight .gh, /* Generic.Heading */
+.highlight .gu, /* Generic.Subheading */
+.highlight .kc, /* Keyword.Constant */
+.highlight .no, /* Name.Constant */
+.highlight .ni, /* Name.Entity */
+.highlight .ne, /* Name.Exception */
+.highlight .se { /* Literal.String.Escape */
+    color: #cb4b16;
+}
+
+/* red - hsv(1, 79%, 86%) - regex, special keywords */
+
+.highlight .gr, /* Generic.Error */
+.highlight .kt, /* Keyword.Type */
+.highlight .sr { /* Literal.String.Regex */
+    color: #dc322f;
+}
+
+/* blue - hsv(205, 82%, 82%) - reserved keywords */
+
+.highlight .kd, /* Keyword.Declaration */
+.highlight .kr, /* Keyword.Reserved */
+.highlight .nc, /* Name.Class */
+.highlight .nd, /* Name.Decorator */
+.highlight .nf, /* Name.Function */
+.highlight .nt, /* Name.Tag */
+.highlight .nv, /* Name.Variable */
+.highlight .bp, /* Name.Builtin.Pseudo */
+.highlight .vc, /* Name.Variable.Class */
+.highlight .vg, /* Name.Variable.Global */
+.highlight .vi { /* Name.Variable.Instance */
+    color: #268bd2;
+}
+
+/* cyan - hsv(175, 74%, 63%) - strings, numbers */
+
+.highlight .gd, /* Generic.Deleted */
+.highlight .m, /* Literal.Number */
+.highlight .s, /* Literal.String */
+.highlight .mf, /* Literal.Number.Float */
+.highlight .mh, /* Literal.Number.Hex */
+.highlight .mi, /* Literal.Number.Integer */
+.highlight .mo, /* Literal.Number.Oct */
+.highlight .sc, /* Literal.String.Char */
+.highlight .s2, /* Literal.String.Double */
+.highlight .si, /* Literal.String.Interpol */
+.highlight .sx, /* Literal.String.Other */
+.highlight .s1, /* Literal.String.Single */
+.highlight .ss, /* Literal.String.Symbol */
+.highlight .il { /* Literal.Number.Integer.Long */
+    color: #2aa198;
+}
+
+/* green - hsv(68, 100%, 60%) - operators, other keywords */
+
+.highlight .k, /* Keyword */
+.highlight .o, /* Operator */
+.highlight .cp, /* Comment.Preproc */
+.highlight .cs, /* Comment.Special */
+.highlight .gi, /* Generic.Inserted */
+.highlight .kn, /* Keyword.Namespace */
+.highlight .kp, /* Keyword.Pseudo */
+.highlight .nb, /* Name.Builtin */
+.highlight .ow { /* Operator.Word */
+    color: #859900;
+}

@@ -1,0 +1,29 @@
+axel (#BF1C37)
+
+H 350
+S  85
+V  75
+
+petra (#F2AD24)
+
+H  40
+S  85
+V  95
+
+light (#E6E8F2)
+
+H 230
+S   5
+V  95
+
+neutral (#4B4E59)
+
+H 230
+S  15
+V  35
+
+dark (#1C1E26)
+
+H 230
+S  25
+V  15

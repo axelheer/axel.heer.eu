@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<ul id="posts">
+    <li class="post {{ page.post_class }}">
+        <h3 class="post-title">{{ page.title | xml_escape }}</h3>
+
+        {{ content }}
+
+        <p class="date">
+            <a href="{{ page.url }}">{{ page.date | date: "%F" }}</a>
+        </p>
+        <ul class="tags">
+            {% for tag in page.tags %}
+            <li class="tag">
+                #<a href="{{ site.hashtags | where: "title", tag | map: "url" }}">{{ tag | xml_escape }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+</ul>
+<div id="navigation">
+    {% if page.previous %}
+    <p class="backwards">
+        <a title="{{ page.previous.title | xml_escape }}" href="{{ page.previous.url }}">←</a>
+    </p>
+    {% endif %}
+    {% if page.next %}
+    <p class="forwards">
+        <a title="{{ page.next.title | xml_escape }}" href="{{ page.next.url }}">→</a>
+    </p>
+    {% endif %}
+</div>

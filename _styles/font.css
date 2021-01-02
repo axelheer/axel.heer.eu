@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "latin-modern-mono";
+    font-weight: normal;
+    font-style: normal;
+    src: url("latin-modern-mono.woff2") format("woff2"),
+         url("latin-modern-mono.woff") format("woff");
+}
+
+@font-face {
+    font-family: "latin-modern-roman";
+    font-weight: normal;
+    font-style: normal;
+    src: url("latin-modern-roman.woff2") format("woff2"),
+         url("latin-modern-roman.woff") format("woff");
+}
+
+@font-face {
+    font-family: "latin-modern-roman";
+    font-weight: bold;
+    font-style: normal;
+    src: url("latin-modern-roman-bold.woff2") format("woff2"),
+         url("latin-modern-roman-bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "latin-modern-roman";
+    font-weight: bold;
+    font-style: italic;
+    src: url("latin-modern-roman-bold-italic.woff2") format("woff2"),
+         url("latin-modern-roman-bold-italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "latin-modern-roman";
+    font-weight: normal;
+    font-style: italic;
+    src: url("latin-modern-roman-italic.woff2") format("woff2"),
+         url("latin-modern-roman-italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "latin-modern-sans";
+    font-weight: normal;
+    font-style: normal;
+    src: url("latin-modern-sans.woff2") format("woff2"),
+         url("latin-modern-sans.woff") format("woff");
+}
+
+@font-face {
+    font-family: "latin-modern-sans";
+    font-weight: bold;
+    font-style: normal;
+    src: url("latin-modern-sans-bold.woff2") format("woff2"),
+         url("latin-modern-sans-bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "latin-modern-sans";
+    font-weight: bold;
+    font-style: italic;
+    src: url("latin-modern-sans-bold-italic.woff2") format("woff2"),
+         url("latin-modern-sans-bold-italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "latin-modern-sans";
+    font-weight: normal;
+    font-style: italic;
+    src: url("latin-modern-sans-italic.woff2") format("woff2"),
+         url("latin-modern-sans-italic.woff") format("woff");
+}

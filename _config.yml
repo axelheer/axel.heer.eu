@@ -1,0 +1,37 @@
+# Site settings
+lang: de_AT
+title: Axel Heer
+author: Axel Heer
+description: Dark Lord of Development
+url: https://axel.heer.io
+logo: /media/axel.png
+accent: axel
+
+# Social links
+github_username: axelheer
+twitter_username: axelheer
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+kramdown:
+  input: GFM
+  smart_quotes: "sbquo,lsquo,bdquo,ldquo"
+
+paginate_path: /page/:num/
+paginate: 5
+
+# Collections
+collections:
+  hashtags:
+    output: true
+    permalink: /tags/:path/
+
+# Gem modules
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-redirect-from
