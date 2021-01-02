@@ -1,0 +1,17 @@
+body {
+    background-color: #000000;
+}
+
+#stars {
+    left: 0;
+    top: 0;
+    position: fixed;
+    overflow: visible;
+}
+
+    #stars .star {
+        background-color: #E6E8F2;
+        width: 1px;
+        height: 1px;
+        position: absolute;
+    }
